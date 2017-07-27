@@ -326,7 +326,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var SequenceFormComponent = (function () {
     function SequenceFormComponent() {
-        this.mutations = ["c.391A>T"];
+        this.mutations = [];
         this.startIntron = __WEBPACK_IMPORTED_MODULE_1__mock_data_service__["a" /* MockInput */].startIntron;
         this.endIntron = __WEBPACK_IMPORTED_MODULE_1__mock_data_service__["a" /* MockInput */].endIntron;
         this.sequence = __WEBPACK_IMPORTED_MODULE_1__mock_data_service__["a" /* MockInput */].rawdata;
