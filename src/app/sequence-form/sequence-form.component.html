@@ -1,0 +1,65 @@
+<md-input-container class="full-width">
+  <textarea [rows]="6" mdInput #message placeholder="Sekvens" [(ngModel)]="sequence" ></textarea>
+  <md-hint align="start"> </md-hint>
+  <md-hint align="end">{{message.value.length}} tegn</md-hint>
+</md-input-container>
+
+<md-input-container >
+  <input mdInput placeholder="Startende intron" value="c.00-00" [(ngModel)]="startIntron">
+</md-input-container>
+
+<md-input-container >
+  <input mdInput placeholder="Sluttende intron" value="c.00-00" [(ngModel)]="endIntron">
+</md-input-container>
+
+<md-select placeholder="Lengde første kodon" [(ngModel)]="leadingCodonSize">
+   <md-option *ngFor="let state of codonSizes" [value]="state">{{ state }}</md-option>
+</md-select>
+
+
+<div>
+  <md-input-container >
+    <input mdInput placeholder="Mutasjon" #mutation (paste)="handlePaste(mutation.value)">
+    <md-hint align="start">c.00 A>C</md-hint>
+  </md-input-container>
+
+  <button (click)="mutations.push(mutation.value)" md-mini-fab><md-icon>add</md-icon></button>
+  <button (click)="submitInput()" md-raised-button>Kalkuler</button>
+
+  <md-chip-list>
+    <md-chip *ngFor="let mutation of mutations">{{ mutation }}</md-chip>
+  </md-chip-list>
+</div>
+
+<br>
+<hr>
+<br>
+
+<div style="text-align: right">
+  <md-checkbox class="example-margin" [(ngModel)]="showGenes">Vis gener</md-checkbox>
+</div>
+
+<br>
+<br>
+<div class="grouped-sequence">
+  <span *ngFor="let group of transformed.StartIntron" class="group">
+    <span *ngFor="let letter of group.AminoLetters">{{ letter.Letter }}</span>
+  </span>
+</div>
+
+
+<br><br>
+<div class="grouped-sequence">
+  <span *ngFor="let group of transformed.Exon" class="group group-exon">
+    <span class="gene" *ngIf="showGenes">{{ group.Gene || '&nbsp;' }}</span>
+    <span *ngFor="let letter of group.AminoLetters" [class.mutated]="letter.Mutated">{{ letter.Letter }}</span>
+  </span>
+</div>
+
+<br><br>
+
+<div class="grouped-sequence">
+  <span *ngFor="let group of transformed.EndIntron" class="group">
+    <span *ngFor="let letter of group.AminoLetters">{{ letter.Letter }}</span>
+  </span>
+</div>
