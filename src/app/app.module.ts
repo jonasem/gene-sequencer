@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { MaterialModule } from "@angular/material";
 
 import { AppComponent } from './app.component';
 import { SequenceFormComponent } from './sequence-form/sequence-form.component';
@@ -14,7 +15,7 @@ import { FormsModule } from "@angular/forms";
   imports: [
     BrowserModule,
     FormsModule,
-    AngularMaterialModule,
+    MaterialModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

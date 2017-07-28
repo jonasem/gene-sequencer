@@ -11,7 +11,7 @@ import { transformRawSequence, SequenceOutput } from "../transform-sequence.serv
 export class SequenceFormComponent implements OnInit {
   transformed: SequenceOutput;
 
-  mutations = ["c.391A>T"];
+  mutations = [];
   startIntron = MockInput.startIntron;
   endIntron = MockInput.endIntron;
   sequence = MockInput.rawdata;

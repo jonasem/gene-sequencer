@@ -27,7 +27,7 @@
   <button (click)="submitInput()" md-raised-button>Kalkuler</button>
 
   <md-chip-list>
-    <md-chip *ngFor="let mutation of mutations">{{ mutation }}</md-chip>
+    <md-chip *ngFor="let mutation of mutations; let idx = index" (click)="mutations.splice(idx, 1)">{{ mutation }}</md-chip>
   </md-chip-list>
 </div>
 
