@@ -13,78 +13,6 @@ webpackEmptyContext.id = "../../../../../src async recursive";
 
 /***/ }),
 
-/***/ "../../../../../src/app/angular-material.module.ts":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_material__ = __webpack_require__("../../../material/@angular/material.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_cdk__ = __webpack_require__("../../../cdk/@angular/cdk.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser_animations__ = __webpack_require__("../../../platform-browser/@angular/platform-browser/animations.es5.js");
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AngularMaterialModule; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-
-
-
-
-/**
- * NgModule that includes all Material modules that are required to serve the demo-app.
- */
-var AngularMaterialModule = (function () {
-    function AngularMaterialModule() {
-    }
-    return AngularMaterialModule;
-}());
-AngularMaterialModule = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
-        exports: [
-            __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["a" /* MdAutocompleteModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["b" /* MdButtonModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["c" /* MdButtonToggleModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["d" /* MdCardModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["e" /* MdCheckboxModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["f" /* MdChipsModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["g" /* MdTableModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["h" /* MdDatepickerModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["i" /* MdDialogModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["j" /* MdExpansionModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["k" /* MdGridListModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["l" /* MdIconModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["m" /* MdInputModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["n" /* MdListModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["o" /* MdMenuModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["p" /* MdCoreModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["q" /* MdPaginatorModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["r" /* MdProgressBarModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["s" /* MdProgressSpinnerModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["t" /* MdRadioModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["u" /* MdRippleModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["v" /* MdSelectModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["w" /* MdSidenavModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["x" /* MdSlideToggleModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["y" /* MdSliderModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["z" /* MdSnackBarModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["A" /* MdSortModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["B" /* MdTabsModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["C" /* MdToolbarModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["D" /* MdTooltipModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["E" /* MdNativeDateModule */],
-            __WEBPACK_IMPORTED_MODULE_2__angular_cdk__["a" /* CdkTableModule */],
-            __WEBPACK_IMPORTED_MODULE_1__angular_material__["F" /* StyleModule */]
-        ]
-    })
-], AngularMaterialModule);
-
-//# sourceMappingURL=angular-material.module.js.map
-
-/***/ }),
-
 /***/ "../../../../../src/app/app.component.css":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -106,7 +34,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"page\">\n    <app-sequence-form></app-sequence-form>\n</div>\n\n\n"
+module.exports = "<div class=\"page\">\r\n    <app-sequence-form></app-sequence-form>\r\n</div>\r\n\r\n\r\n"
 
 /***/ }),
 
@@ -147,9 +75,9 @@ AppComponent = __decorate([
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__("../../../platform-browser/@angular/platform-browser.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__sequence_form_sequence_form_component__ = __webpack_require__("../../../../../src/app/sequence-form/sequence-form.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_material_module__ = __webpack_require__("../../../../../src/app/angular-material.module.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_material__ = __webpack_require__("../../../material/@angular/material.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__sequence_form_sequence_form_component__ = __webpack_require__("../../../../../src/app/sequence-form/sequence-form.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_forms__ = __webpack_require__("../../../forms/@angular/forms.es5.js");
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -172,16 +100,16 @@ var AppModule = (function () {
 AppModule = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["b" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_2__app_component__["a" /* AppComponent */],
-            __WEBPACK_IMPORTED_MODULE_3__sequence_form_sequence_form_component__["a" /* SequenceFormComponent */]
+            __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* AppComponent */],
+            __WEBPACK_IMPORTED_MODULE_4__sequence_form_sequence_form_component__["a" /* SequenceFormComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
             __WEBPACK_IMPORTED_MODULE_5__angular_forms__["a" /* FormsModule */],
-            __WEBPACK_IMPORTED_MODULE_4__angular_material_module__["a" /* AngularMaterialModule */],
+            __WEBPACK_IMPORTED_MODULE_2__angular_material__["a" /* MaterialModule */],
         ],
         providers: [],
-        bootstrap: [__WEBPACK_IMPORTED_MODULE_2__app_component__["a" /* AppComponent */]]
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* AppComponent */]]
     })
 ], AppModule);
 
@@ -282,7 +210,7 @@ var MockInput = {
 /***/ "../../../../../src/app/sequence-form/sequence-form.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<md-input-container class=\"full-width\">\n  <textarea [rows]=\"6\" mdInput #message placeholder=\"Sekvens\" [(ngModel)]=\"sequence\" ></textarea>\n  <md-hint align=\"start\"> </md-hint>\n  <md-hint align=\"end\">{{message.value.length}} tegn</md-hint>\n</md-input-container>\n\n<md-input-container >\n  <input mdInput placeholder=\"Startende intron\" value=\"c.00-00\" [(ngModel)]=\"startIntron\">\n</md-input-container>\n\n<md-input-container >\n  <input mdInput placeholder=\"Sluttende intron\" value=\"c.00-00\" [(ngModel)]=\"endIntron\">\n</md-input-container>\n\n<md-select placeholder=\"Lengde første kodon\" [(ngModel)]=\"leadingCodonSize\">\n   <md-option *ngFor=\"let state of codonSizes\" [value]=\"state\">{{ state }}</md-option>\n</md-select>\n\n\n<div>\n  <md-input-container >\n    <input mdInput placeholder=\"Mutasjon\" #mutation (paste)=\"handlePaste(mutation.value)\">\n    <md-hint align=\"start\">c.00 A>C</md-hint>\n  </md-input-container>\n\n  <button (click)=\"mutations.push(mutation.value)\" md-mini-fab><md-icon>add</md-icon></button>\n  <button (click)=\"submitInput()\" md-raised-button>Kalkuler</button>\n\n  <md-chip-list>\n    <md-chip *ngFor=\"let mutation of mutations\">{{ mutation }}</md-chip>\n  </md-chip-list>\n</div>\n\n<br>\n<hr>\n<br>\n\n<div style=\"text-align: right\">\n  <md-checkbox class=\"example-margin\" [(ngModel)]=\"showGenes\">Vis gener</md-checkbox>\n</div>\n\n<br>\n<br>\n<div class=\"grouped-sequence\">\n  <span *ngFor=\"let group of transformed.StartIntron\" class=\"group\">\n    <span *ngFor=\"let letter of group.AminoLetters\">{{ letter.Letter }}</span>\n  </span>\n</div>\n\n\n<br><br>\n<div class=\"grouped-sequence\">\n  <span *ngFor=\"let group of transformed.Exon\" class=\"group group-exon\">\n    <span class=\"gene\" *ngIf=\"showGenes\">{{ group.Gene || '&nbsp;' }}</span>\n    <span *ngFor=\"let letter of group.AminoLetters\" [class.mutated]=\"letter.Mutated\">{{ letter.Letter }}</span>\n  </span>\n</div>\n\n<br><br>\n\n<div class=\"grouped-sequence\">\n  <span *ngFor=\"let group of transformed.EndIntron\" class=\"group\">\n    <span *ngFor=\"let letter of group.AminoLetters\">{{ letter.Letter }}</span>\n  </span>\n</div>\n"
+module.exports = "<md-input-container class=\"full-width\">\r\n  <textarea [rows]=\"6\" mdInput #message placeholder=\"Sekvens\" [(ngModel)]=\"sequence\" ></textarea>\r\n  <md-hint align=\"start\"> </md-hint>\r\n  <md-hint align=\"end\">{{message.value.length}} tegn</md-hint>\r\n</md-input-container>\r\n\r\n<md-input-container >\r\n  <input mdInput placeholder=\"Startende intron\" value=\"c.00-00\" [(ngModel)]=\"startIntron\">\r\n</md-input-container>\r\n\r\n<md-input-container >\r\n  <input mdInput placeholder=\"Sluttende intron\" value=\"c.00-00\" [(ngModel)]=\"endIntron\">\r\n</md-input-container>\r\n\r\n<md-select placeholder=\"Lengde første kodon\" [(ngModel)]=\"leadingCodonSize\">\r\n   <md-option *ngFor=\"let state of codonSizes\" [value]=\"state\">{{ state }}</md-option>\r\n</md-select>\r\n\r\n\r\n<div>\r\n  <md-input-container >\r\n    <input mdInput placeholder=\"Mutasjon\" #mutation (paste)=\"handlePaste(mutation.value)\">\r\n    <md-hint align=\"start\">c.00 A>C</md-hint>\r\n  </md-input-container>\r\n\r\n  <button (click)=\"mutations.push(mutation.value)\" md-mini-fab><md-icon>add</md-icon></button>\r\n  <button (click)=\"submitInput()\" md-raised-button>Kalkuler</button>\r\n\r\n  <md-chip-list>\r\n    <md-chip *ngFor=\"let mutation of mutations; let idx = index\" (click)=\"mutations.splice(idx, 1)\">{{ mutation }}</md-chip>\r\n  </md-chip-list>\r\n</div>\r\n\r\n<br>\r\n<hr>\r\n<br>\r\n\r\n<div style=\"text-align: right\">\r\n  <md-checkbox class=\"example-margin\" [(ngModel)]=\"showGenes\">Vis gener</md-checkbox>\r\n</div>\r\n\r\n<br>\r\n<br>\r\n<div class=\"grouped-sequence\">\r\n  <span *ngFor=\"let group of transformed.StartIntron\" class=\"group\">\r\n    <span *ngFor=\"let letter of group.AminoLetters\">{{ letter.Letter }}</span>\r\n  </span>\r\n</div>\r\n\r\n\r\n<br><br>\r\n<div class=\"grouped-sequence\">\r\n  <span *ngFor=\"let group of transformed.Exon\" class=\"group group-exon\">\r\n    <span class=\"gene\" *ngIf=\"showGenes\">{{ group.Gene || '&nbsp;' }}</span>\r\n    <span *ngFor=\"let letter of group.AminoLetters\" [class.mutated]=\"letter.Mutated\">{{ letter.Letter }}</span>\r\n  </span>\r\n</div>\r\n\r\n<br><br>\r\n\r\n<div class=\"grouped-sequence\">\r\n  <span *ngFor=\"let group of transformed.EndIntron\" class=\"group\">\r\n    <span *ngFor=\"let letter of group.AminoLetters\">{{ letter.Letter }}</span>\r\n  </span>\r\n</div>\r\n"
 
 /***/ }),
 
